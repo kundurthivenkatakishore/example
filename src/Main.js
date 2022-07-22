@@ -16,7 +16,7 @@ export default function Main() {
   return (
     <div>
         <h1>Pokeman Names</h1>
-        <li>{data.count}</li>
+        {data.results.map((item)=><li>{item.name}</li>)}
     </div>
   )
 }

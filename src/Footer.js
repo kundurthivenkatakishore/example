@@ -1,8 +1,9 @@
 import React from 'react'
+import './footer.css'
 
 function Footer() {
   return (
-    <footer>Copyrights @Kishore</footer>
+    <div className='footer'>Copyrights @Kishore</div>
   )
 }
 
